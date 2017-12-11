@@ -28,5 +28,6 @@ class Player {
         }
         Log.i("cur play index: ", curPlayIndex.toString())
         musicURL = dataInfo.getJSONObject(curPlayIndex).getString("url")
+        startPlaying()
     }
 }
